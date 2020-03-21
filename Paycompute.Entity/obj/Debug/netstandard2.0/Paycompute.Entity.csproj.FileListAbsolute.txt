@@ -1,0 +1,16 @@
+C:\Ayman\Project\Paycompute.Entity\bin\Debug\netstandard2.0\Paycompute.Entity.deps.json
+C:\Ayman\Project\Paycompute.Entity\bin\Debug\netstandard2.0\Paycompute.Entity.dll
+C:\Ayman\Project\Paycompute.Entity\bin\Debug\netstandard2.0\Paycompute.Entity.pdb
+C:\Ayman\Project\Paycompute.Entity\obj\Debug\netstandard2.0\Paycompute.Entity.csprojAssemblyReference.cache
+C:\Ayman\Project\Paycompute.Entity\obj\Debug\netstandard2.0\Paycompute.Entity.AssemblyInfoInputs.cache
+C:\Ayman\Project\Paycompute.Entity\obj\Debug\netstandard2.0\Paycompute.Entity.AssemblyInfo.cs
+C:\Ayman\Project\Paycompute.Entity\obj\Debug\netstandard2.0\Paycompute.Entity.dll
+C:\Ayman\Project\Paycompute.Entity\obj\Debug\netstandard2.0\Paycompute.Entity.pdb
+C:\Ayman\Project\PaycomputeApp\Paycompute.Entity\bin\Debug\netstandard2.0\Paycompute.Entity.deps.json
+C:\Ayman\Project\PaycomputeApp\Paycompute.Entity\bin\Debug\netstandard2.0\Paycompute.Entity.dll
+C:\Ayman\Project\PaycomputeApp\Paycompute.Entity\bin\Debug\netstandard2.0\Paycompute.Entity.pdb
+C:\Ayman\Project\PaycomputeApp\Paycompute.Entity\obj\Debug\netstandard2.0\Paycompute.Entity.csprojAssemblyReference.cache
+C:\Ayman\Project\PaycomputeApp\Paycompute.Entity\obj\Debug\netstandard2.0\Paycompute.Entity.AssemblyInfoInputs.cache
+C:\Ayman\Project\PaycomputeApp\Paycompute.Entity\obj\Debug\netstandard2.0\Paycompute.Entity.AssemblyInfo.cs
+C:\Ayman\Project\PaycomputeApp\Paycompute.Entity\obj\Debug\netstandard2.0\Paycompute.Entity.dll
+C:\Ayman\Project\PaycomputeApp\Paycompute.Entity\obj\Debug\netstandard2.0\Paycompute.Entity.pdb
