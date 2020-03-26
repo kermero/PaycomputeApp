@@ -31,9 +31,8 @@ namespace Paycompute.Services.Implementation
 
         public IEnumerable<Employee> GetAll() => _Context.Employees;
 
-
         public Employee GetById(int employeeId) =>
-            _Context.Employees.Where(e => e.Id == employeeId).FirstOrDefault();
+       _Context.Employees.Where(e => e.Id == employeeId).FirstOrDefault();
 
 
         public decimal StudentLoanRepaymentAmount(int id, decimal totalAmount)
@@ -58,5 +57,7 @@ namespace Paycompute.Services.Implementation
             _Context.Update(employee);
             await _Context.SaveChangesAsync();
         }
+
+
     }
 }
