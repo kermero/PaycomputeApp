@@ -10,29 +10,28 @@ namespace Paycompute.Services.Implementation
 {
     public class EmplyeeService : IEmployeeService
     {
-        private readonly ApplicationDbContext _Context;
+        private readonly ApplicationDbContext _context;
         public EmplyeeService(ApplicationDbContext context)
         {
-            _Context = context;
+            _context = context;
         }
         public async Task CreateAsync(Employee newEmployee)
         {
-            await _Context.Employees.AddAsync(newEmployee);
-            await _Context.SaveChangesAsync();
-
+            await _context.Employees.AddAsync(newEmployee);
+            await _context.SaveChangesAsync();
         }
 
         public async Task Delete(int employeeId)
         {
             var employee = GetById(employeeId);
-            _Context.Remove(employee);
-            await _Context.SaveChangesAsync();
+            _context.Remove(employee);
+            await _context.SaveChangesAsync();
         }
 
-        public IEnumerable<Employee> GetAll() => _Context.Employees;
+        public IEnumerable<Employee> GetAll() => _context.Employees;
 
-        public Employee GetById(int employeeId) =>
-       _Context.Employees.Where(e => e.Id == employeeId).FirstOrDefault();
+
+        public Employee GetById(int employeeId) => _context.Employees.Where(e => e.Id == employeeId).FirstOrDefault();
 
 
         public decimal StudentLoanRepaymentAmount(int id, decimal totalAmount)
@@ -47,17 +46,16 @@ namespace Paycompute.Services.Implementation
 
         public async Task UpdateAsync(Employee employee)
         {
-            _Context.Update(employee);
-            await _Context.SaveChangesAsync();
+            _context.Update(employee);
+            await _context.SaveChangesAsync();
         }
 
         public async Task UpdateAsync(int id)
         {
             var employee = GetById(id);
-            _Context.Update(employee);
-            await _Context.SaveChangesAsync();
+            _context.Update(employee);
+            await _context.SaveChangesAsync();
+
         }
-
-
     }
 }
